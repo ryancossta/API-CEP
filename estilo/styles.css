@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    width: 0;
+    display: flex;
+    background-color: rgb(129, 162, 162);
+}
+h1{
+   margin-left: 42vw;;
+    text-align: center;
+}
+
+#cep{
+    margin-left: 42vw;
+    background-color: rgba(0, 0, 0, 0.226);
+}
+
+#buscar{
+    background-color: rgba(0, 0, 0, 0.279);
+    margin-top: 2%;
+    margin-left: 46vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    border-radius:10vw ;
+    
+}
+
+.result{
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 43vw;
+    background-color: rgba(0, 0, 0, 0.17);
+}
+
+.container{
+    margin-top: 10vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 720px) {
+    /* Estilos para telas com largura máxima de 768px (por exemplo, smartphones) */
+ #buscar{
+    margin-left: 50vw;
+    display: flex;
+    flex-direction: column;
+ }
+  }
